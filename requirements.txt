@@ -22,7 +22,7 @@ clickhouse-driver==0.2.4; python_version >= "3.4" and python_version < "4"
 cligj==0.7.2; python_version >= "3.8" and python_full_version < "3.0.0" or python_full_version >= "3.3.0" and python_version < "4" and python_version >= "3.8"
 cloudpickle==2.1.0; python_version >= "3.8"
 colorama==0.4.5; platform_system == "Windows" and python_version >= "3.8" and python_full_version >= "3.6.2" and python_full_version < "4.0.0" and (python_version >= "3.8" and python_full_version < "3.0.0" and sys_platform == "win32" or sys_platform == "win32" and python_version >= "3.8" and python_full_version >= "3.5.0") and (python_version >= "3.7" and python_full_version < "3.0.0" and sys_platform == "win32" or sys_platform == "win32" and python_version >= "3.7" and python_full_version >= "3.5.0") and (python_version >= "3.7" and python_full_version < "3.0.0" and sys_platform == "win32" and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.7") or sys_platform == "win32" and python_version >= "3.7" and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.7") and python_full_version >= "3.5.0")
-commitizen==2.32.2; python_full_version >= "3.6.2" and python_full_version < "4.0.0"
+commitizen==2.32.3; python_full_version >= "3.6.2" and python_full_version < "4.0.0"
 commonmark==0.9.1; python_full_version >= "3.6.3" and python_full_version < "4.0.0" and (python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0")
 coverage==6.4.4; python_version >= "3.7"
 dask==2022.7.1; python_version >= "3.8"
@@ -166,7 +166,7 @@ six==1.16.0; python_full_version >= "3.7.1" and python_version >= "3.8" and pyth
 smmap==5.0.0; python_version >= "3.7"
 snowballstemmer==2.2.0; python_version >= "3.6"
 soupsieve==2.3.2.post1; python_full_version >= "3.7.1" and python_version < "4" and python_version >= "3.7"
-sqlalchemy==1.4.40; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.6.0")
+sqlalchemy==1.4.41; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.6.0")
 sqlglot==5.3.1
 stack-data==0.5.0; python_version >= "3.8"
 tabulate==0.8.10; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
